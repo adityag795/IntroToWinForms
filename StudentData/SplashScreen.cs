@@ -41,6 +41,7 @@ namespace StudentData
                 Menu m1 = new Menu();
                 m1.ShowDialog();
             }
+            this.Hide();
         }
     }
 }

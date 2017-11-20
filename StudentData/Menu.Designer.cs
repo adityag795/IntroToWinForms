@@ -28,13 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.addStudentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.operationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.billToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.masterDataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -44,66 +43,57 @@
             this.addStudentToolStripMenuItem,
             this.operationToolStripMenuItem,
             this.billToolStripMenuItem,
-            this.exitToolStripMenuItem,
-            this.masterDataToolStripMenuItem});
+            this.exitToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(556, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(556, 40);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // addStudentToolStripMenuItem
             // 
+            this.addStudentToolStripMenuItem.Font = new System.Drawing.Font("Dubai Medium", 14F);
             this.addStudentToolStripMenuItem.Name = "addStudentToolStripMenuItem";
             this.addStudentToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.A)));
-            this.addStudentToolStripMenuItem.Size = new System.Drawing.Size(85, 20);
+            this.addStudentToolStripMenuItem.Size = new System.Drawing.Size(127, 36);
             this.addStudentToolStripMenuItem.Text = "Add Student";
             this.addStudentToolStripMenuItem.Click += new System.EventHandler(this.addStudentToolStripMenuItem_Click);
             // 
             // operationToolStripMenuItem
             // 
+            this.operationToolStripMenuItem.Font = new System.Drawing.Font("Dubai Medium", 14F);
             this.operationToolStripMenuItem.Name = "operationToolStripMenuItem";
-            this.operationToolStripMenuItem.Size = new System.Drawing.Size(72, 20);
+            this.operationToolStripMenuItem.Size = new System.Drawing.Size(108, 36);
             this.operationToolStripMenuItem.Text = "Operation";
             this.operationToolStripMenuItem.Click += new System.EventHandler(this.operationToolStripMenuItem_Click);
             // 
             // billToolStripMenuItem
             // 
+            this.billToolStripMenuItem.Font = new System.Drawing.Font("Dubai Medium", 14F);
             this.billToolStripMenuItem.Name = "billToolStripMenuItem";
-            this.billToolStripMenuItem.Size = new System.Drawing.Size(35, 20);
+            this.billToolStripMenuItem.Size = new System.Drawing.Size(53, 36);
             this.billToolStripMenuItem.Text = "Bill";
+            this.billToolStripMenuItem.Click += new System.EventHandler(this.billToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
+            this.exitToolStripMenuItem.Font = new System.Drawing.Font("Dubai Medium", 14F);
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(58, 36);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
-            // 
-            // masterDataToolStripMenuItem
-            // 
-            this.masterDataToolStripMenuItem.Name = "masterDataToolStripMenuItem";
-            this.masterDataToolStripMenuItem.Size = new System.Drawing.Size(81, 20);
-            this.masterDataToolStripMenuItem.Text = "master data";
-            // 
-            // maskedTextBox1
-            // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(39, 139);
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(100, 20);
-            this.maskedTextBox1.TabIndex = 2;
             // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkGray;
+            this.BackColor = System.Drawing.Color.LightGreen;
             this.ClientSize = new System.Drawing.Size(556, 261);
-            this.Controls.Add(this.maskedTextBox1);
             this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Menu";
-            this.Text = "Menu";
+            this.Text = "Forms Introduction";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Menu_Load);
             this.menuStrip1.ResumeLayout(false);
@@ -118,9 +108,7 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem addStudentToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem operationToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem billToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem masterDataToolStripMenuItem;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.ToolStripMenuItem billToolStripMenuItem;
     }
 }

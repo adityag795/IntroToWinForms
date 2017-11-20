@@ -21,19 +21,19 @@ namespace StudentData
         private void textBox4_TextChanged(object sender, EventArgs e)
         {
 
-            if (textBox4.Text == "")
+            if (String.IsNullOrEmpty(txtQty.Text))
             {
-                textBox4.Text =" 0.00";
+                txtQty.Text ="0";
             }
-            if (textBox3.Text == "")
+            if (String.IsNullOrEmpty(txtPrice.Text))
             {
-                textBox3.Text = " 0.00";
+                txtPrice.Text = "0.00";
             }
-            rate =Convert.ToDouble( textBox3.Text);
-            qty = Convert.ToDouble(textBox4.Text);
+            rate =Convert.ToDouble(txtPrice.Text);
+            qty = Convert.ToDouble(txtQty.Text);
             total = rate * qty;
             Amt.Text = Convert.ToString(total);
-            if (textBox3.Text == "" || textBox4.Text == "")
+            if (String.IsNullOrEmpty(txtPrice.Text) || String.IsNullOrEmpty(txtQty.Text))
             {
                 Amt.Text = "";
             }
@@ -41,32 +41,27 @@ namespace StudentData
 
         private void textBox6_TextChanged(object sender, EventArgs e)
         {
-            if (textBox6.Text != "")
-                dis = Convert.ToDouble(textBox6.Text);
+            if (String.IsNullOrEmpty(txtDiscount.Text) == false)
+                dis = Convert.ToDouble(txtDiscount.Text);
             final = total - ((dis / 100) * total);
             Net.Text = Convert.ToString(final);
         }
 
-        private void Amt_Click(object sender, EventArgs e)
-        {
-           
-        }
-
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
-            if (textBox3.Text == "")
+            if (String.IsNullOrEmpty(txtPrice.Text))
             {
-                textBox3.Text = " 0.00";
+                txtPrice.Text = "0.00";
             }
-            if (textBox4.Text == "")
+            if (String.IsNullOrEmpty(txtQty.Text))
             {
-                textBox4.Text = " 0.00";
+                txtQty.Text = "0";
             }
-            rate = Convert.ToDouble(textBox3.Text);
-            qty = Convert.ToDouble(textBox4.Text);
+            rate = Convert.ToDouble(txtPrice.Text);
+            qty = Convert.ToDouble(txtQty.Text);
             total = rate * qty;
             Amt.Text = Convert.ToString(total);
-            if (textBox3.Text == "" || textBox4.Text == "")
+            if (String.IsNullOrEmpty(txtPrice.Text) || String.IsNullOrEmpty(txtQty.Text))
             {
                 Amt.Text = "";
             }
