@@ -32,21 +32,19 @@
             this.Heading = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.Notifier = new System.Windows.Forms.Label();
             this.Update = new System.Windows.Forms.Button();
-            this.StudentID = new System.Windows.Forms.TextBox();
+            this.txtStudentID = new System.Windows.Forms.TextBox();
             this.ID = new System.Windows.Forms.Label();
             this.Del = new System.Windows.Forms.Button();
             this.Find = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.ddlQualification = new System.Windows.Forms.ComboBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.Cancel = new System.Windows.Forms.Button();
             this.Submit = new System.Windows.Forms.Button();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtTwelth = new System.Windows.Forms.TextBox();
+            this.txtTenth = new System.Windows.Forms.TextBox();
+            this.txtMobile = new System.Windows.Forms.TextBox();
+            this.txtPhone = new System.Windows.Forms.TextBox();
             this.Female = new System.Windows.Forms.RadioButton();
             this.Male = new System.Windows.Forms.RadioButton();
             this.Gender = new System.Windows.Forms.Label();
@@ -55,10 +53,10 @@
             this.Tenth = new System.Windows.Forms.Label();
             this.MobileNo = new System.Windows.Forms.Label();
             this.PhoneNo = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtMail = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtName = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -85,21 +83,19 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.Notifier);
             this.panel1.Controls.Add(this.Update);
-            this.panel1.Controls.Add(this.StudentID);
+            this.panel1.Controls.Add(this.txtStudentID);
             this.panel1.Controls.Add(this.ID);
             this.panel1.Controls.Add(this.Del);
             this.panel1.Controls.Add(this.Find);
-            this.panel1.Controls.Add(this.comboBox1);
+            this.panel1.Controls.Add(this.ddlQualification);
             this.panel1.Controls.Add(this.dateTimePicker1);
             this.panel1.Controls.Add(this.Cancel);
             this.panel1.Controls.Add(this.Submit);
-            this.panel1.Controls.Add(this.textBox6);
-            this.panel1.Controls.Add(this.textBox5);
-            this.panel1.Controls.Add(this.textBox4);
-            this.panel1.Controls.Add(this.textBox3);
+            this.panel1.Controls.Add(this.txtTwelth);
+            this.panel1.Controls.Add(this.txtTenth);
+            this.panel1.Controls.Add(this.txtMobile);
+            this.panel1.Controls.Add(this.txtPhone);
             this.panel1.Controls.Add(this.Female);
             this.panel1.Controls.Add(this.Male);
             this.panel1.Controls.Add(this.Gender);
@@ -108,35 +104,16 @@
             this.panel1.Controls.Add(this.Tenth);
             this.panel1.Controls.Add(this.MobileNo);
             this.panel1.Controls.Add(this.PhoneNo);
-            this.panel1.Controls.Add(this.textBox2);
+            this.panel1.Controls.Add(this.txtMail);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.txtName);
             this.panel1.Controls.Add(this.Heading);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(1, 6);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(430, 616);
             this.panel1.TabIndex = 2;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Dubai Medium", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(87, 566);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(46, 32);
-            this.label4.TabIndex = 30;
-            this.label4.Text = "Info";
-            // 
-            // Notifier
-            // 
-            this.Notifier.AutoSize = true;
-            this.Notifier.Font = new System.Drawing.Font("Dubai Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Notifier.Location = new System.Drawing.Point(176, 492);
-            this.Notifier.Name = "Notifier";
-            this.Notifier.Size = new System.Drawing.Size(0, 24);
-            this.Notifier.TabIndex = 29;
             // 
             // Update
             // 
@@ -149,19 +126,19 @@
             this.Update.UseVisualStyleBackColor = true;
             this.Update.Click += new System.EventHandler(this.Update_Click);
             // 
-            // StudentID
+            // txtStudentID
             // 
-            this.StudentID.Font = new System.Drawing.Font("Dubai Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.StudentID.Location = new System.Drawing.Point(122, 423);
-            this.StudentID.Name = "StudentID";
-            this.StudentID.Size = new System.Drawing.Size(263, 30);
-            this.StudentID.TabIndex = 27;
+            this.txtStudentID.Font = new System.Drawing.Font("Dubai Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtStudentID.Location = new System.Drawing.Point(122, 423);
+            this.txtStudentID.Name = "txtStudentID";
+            this.txtStudentID.Size = new System.Drawing.Size(263, 30);
+            this.txtStudentID.TabIndex = 27;
             // 
             // ID
             // 
             this.ID.AutoSize = true;
             this.ID.Font = new System.Drawing.Font("Dubai Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ID.Location = new System.Drawing.Point(14, 423);
+            this.ID.Location = new System.Drawing.Point(11, 423);
             this.ID.Name = "ID";
             this.ID.Size = new System.Drawing.Size(87, 27);
             this.ID.TabIndex = 26;
@@ -181,7 +158,7 @@
             // Find
             // 
             this.Find.Font = new System.Drawing.Font("Dubai Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Find.Location = new System.Drawing.Point(148, 482);
+            this.Find.Location = new System.Drawing.Point(150, 482);
             this.Find.Name = "Find";
             this.Find.Size = new System.Drawing.Size(102, 33);
             this.Find.TabIndex = 24;
@@ -189,22 +166,22 @@
             this.Find.UseVisualStyleBackColor = true;
             this.Find.Click += new System.EventHandler(this.Find_Click);
             // 
-            // comboBox1
+            // ddlQualification
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Dubai Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.ddlQualification.Font = new System.Drawing.Font("Dubai Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ddlQualification.FormattingEnabled = true;
+            this.ddlQualification.Items.AddRange(new object[] {
             "10",
             "12",
             "Graduation",
             "Post Graduation",
             "PHD",
             "DIploma"});
-            this.comboBox1.Location = new System.Drawing.Point(127, 356);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(258, 30);
-            this.comboBox1.TabIndex = 23;
-            this.comboBox1.Text = "-------select---------";
+            this.ddlQualification.Location = new System.Drawing.Point(127, 356);
+            this.ddlQualification.Name = "ddlQualification";
+            this.ddlQualification.Size = new System.Drawing.Size(258, 30);
+            this.ddlQualification.TabIndex = 23;
+            this.ddlQualification.Text = "-------select---------";
             // 
             // dateTimePicker1
             // 
@@ -224,6 +201,7 @@
             this.Cancel.TabIndex = 21;
             this.Cancel.Text = "Cancel";
             this.Cancel.UseVisualStyleBackColor = true;
+            this.Cancel.Click += new System.EventHandler(this.Cancel_Click);
             // 
             // Submit
             // 
@@ -236,37 +214,37 @@
             this.Submit.UseVisualStyleBackColor = true;
             this.Submit.Click += new System.EventHandler(this.Submit_Click);
             // 
-            // textBox6
+            // txtTwelth
             // 
-            this.textBox6.Font = new System.Drawing.Font("Dubai Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(127, 313);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(258, 30);
-            this.textBox6.TabIndex = 18;
+            this.txtTwelth.Font = new System.Drawing.Font("Dubai Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTwelth.Location = new System.Drawing.Point(127, 313);
+            this.txtTwelth.Name = "txtTwelth";
+            this.txtTwelth.Size = new System.Drawing.Size(258, 30);
+            this.txtTwelth.TabIndex = 18;
             // 
-            // textBox5
+            // txtTenth
             // 
-            this.textBox5.Font = new System.Drawing.Font("Dubai Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(127, 265);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(258, 30);
-            this.textBox5.TabIndex = 17;
+            this.txtTenth.Font = new System.Drawing.Font("Dubai Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTenth.Location = new System.Drawing.Point(127, 265);
+            this.txtTenth.Name = "txtTenth";
+            this.txtTenth.Size = new System.Drawing.Size(258, 30);
+            this.txtTenth.TabIndex = 17;
             // 
-            // textBox4
+            // txtMobile
             // 
-            this.textBox4.Font = new System.Drawing.Font("Dubai Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(127, 222);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(258, 30);
-            this.textBox4.TabIndex = 16;
+            this.txtMobile.Font = new System.Drawing.Font("Dubai Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMobile.Location = new System.Drawing.Point(127, 222);
+            this.txtMobile.Name = "txtMobile";
+            this.txtMobile.Size = new System.Drawing.Size(258, 30);
+            this.txtMobile.TabIndex = 16;
             // 
-            // textBox3
+            // txtPhone
             // 
-            this.textBox3.Font = new System.Drawing.Font("Dubai Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(127, 175);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(258, 30);
-            this.textBox3.TabIndex = 15;
+            this.txtPhone.Font = new System.Drawing.Font("Dubai Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPhone.Location = new System.Drawing.Point(127, 175);
+            this.txtPhone.Name = "txtPhone";
+            this.txtPhone.Size = new System.Drawing.Size(258, 30);
+            this.txtPhone.TabIndex = 15;
             // 
             // Female
             // 
@@ -352,13 +330,13 @@
             this.PhoneNo.TabIndex = 7;
             this.PhoneNo.Text = "Phone No. :";
             // 
-            // textBox2
+            // txtMail
             // 
-            this.textBox2.Font = new System.Drawing.Font("Dubai Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(127, 131);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(258, 30);
-            this.textBox2.TabIndex = 6;
+            this.txtMail.Font = new System.Drawing.Font("Dubai Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMail.Location = new System.Drawing.Point(127, 131);
+            this.txtMail.Name = "txtMail";
+            this.txtMail.Size = new System.Drawing.Size(258, 30);
+            this.txtMail.TabIndex = 6;
             // 
             // label3
             // 
@@ -380,13 +358,13 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Date of Birth:";
             // 
-            // textBox1
+            // txtName
             // 
-            this.textBox1.Font = new System.Drawing.Font("Dubai Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(127, 51);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(258, 30);
-            this.textBox1.TabIndex = 2;
+            this.txtName.Font = new System.Drawing.Font("Dubai Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtName.Location = new System.Drawing.Point(127, 51);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(258, 30);
+            this.txtName.TabIndex = 2;
             // 
             // AddStudent
             // 
@@ -410,32 +388,30 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtName;
+        private System.Windows.Forms.TextBox txtMail;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label MobileNo;
         private System.Windows.Forms.Label PhoneNo;
         private System.Windows.Forms.Label Qualification;
         private System.Windows.Forms.Label Twelth;
         private System.Windows.Forms.Label Tenth;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtTwelth;
+        private System.Windows.Forms.TextBox txtTenth;
+        private System.Windows.Forms.TextBox txtMobile;
+        private System.Windows.Forms.TextBox txtPhone;
         private System.Windows.Forms.RadioButton Female;
         private System.Windows.Forms.RadioButton Male;
         private System.Windows.Forms.Label Gender;
         private System.Windows.Forms.Button Submit;
         private System.Windows.Forms.Button Cancel;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox ddlQualification;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Button Del;
         private System.Windows.Forms.Button Find;
-        private System.Windows.Forms.TextBox StudentID;
+        private System.Windows.Forms.TextBox txtStudentID;
         private System.Windows.Forms.Label ID;
         private System.Windows.Forms.Button Update;
-        private System.Windows.Forms.Label Notifier;
-        private System.Windows.Forms.Label label4;
     }
 }
 
