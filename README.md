@@ -2,7 +2,7 @@
 This was to test how Github works with Visual Studio. It is great. Also, this is a project to introduce windows forms to anyone who is 
 starting with windows forms.
 
-Software Requirements to run this .sln file:
+Minimum Software Requirements to run this .sln file:
 - Microsoft Windows XP
 - Microsoft Visual Studio 2010
 - SQL Server Management Studio (2005 or above)
