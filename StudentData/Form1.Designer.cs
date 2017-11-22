@@ -129,7 +129,7 @@
             // txtStudentID
             // 
             this.txtStudentID.Font = new System.Drawing.Font("Dubai Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtStudentID.Location = new System.Drawing.Point(122, 423);
+            this.txtStudentID.Location = new System.Drawing.Point(122, 429);
             this.txtStudentID.Name = "txtStudentID";
             this.txtStudentID.Size = new System.Drawing.Size(263, 30);
             this.txtStudentID.TabIndex = 27;
@@ -138,7 +138,7 @@
             // 
             this.ID.AutoSize = true;
             this.ID.Font = new System.Drawing.Font("Dubai Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ID.Location = new System.Drawing.Point(11, 423);
+            this.ID.Location = new System.Drawing.Point(11, 429);
             this.ID.Name = "ID";
             this.ID.Size = new System.Drawing.Size(87, 27);
             this.ID.TabIndex = 26;
