@@ -1,5 +1,5 @@
 # StudentData Windows Forms Application
-This is a project to record Student details by asking the user to enter data in a Windows Forms Application. The User can also Find, Update and Delete the Student info. if he knows the student Id. This application also helps user to find final price to be paid if the user know the cost price and discount % on that particular item.
+This is a project to record Student details by asking the user to enter data in a Windows Forms Application and store in SQL Server Database. The User can also Find, Update and Delete the Student info. if he knows the student Id. This application also helps user to find final price to be paid if the user know the cost price and discount % on that particular item.
 
 Minimum Software Requirements to run this .sln file:
 - Microsoft Windows XP
